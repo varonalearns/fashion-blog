@@ -1,0 +1,48 @@
+/*--------------- Default Styles (Mobile-first Approach)  --------------- */
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    padding: 7rem;
+}
+.avatar-img {
+    margin-bottom: 2rem;
+}
+
+section,
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.25rem;
+}
+
+section {
+    margin-bottom: 5rem;
+}
+section p {
+    line-height: 1.75;
+}
+
+h1, h2 {
+    margin-bottom: 1.25rem;
+    align-self: flex-start;
+}
+.container {
+    display: flex;
+}
+.container img {
+    margin-right: 2rem;
+}
+.related h4,
+.related ul {
+    align-self: flex-start;
+}
+
+footer {
+    color: grey;
+    background-color: black;
+    padding: 5rem 7rem;
+}
